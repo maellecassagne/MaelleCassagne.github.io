@@ -1,0 +1,22 @@
+
+/* selecteur(s) {
+propriété: valeur;
+propriété: valeur;
+propriété: valeur;
+} */
+
+h1 {
+  color: rgb(2, 48, 48);
+    font-size: 48px;
+    text-align : center;
+}
+
+graphic design student{
+    color:rgb(2, 48, 48);
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Commissioner light;
+    color:rgb(107, 107, 107) ;
+    text-align: center;
+}
