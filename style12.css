@@ -5,16 +5,12 @@ propriété: valeur;
 propriété: valeur;
 } */
 
-@font-face {
-    font-family: "lineal";
-    src: url(Lineal.otf) format("opentype");
-}
 
 h1 {
   color: rgb(2, 48, 48);
     font-size: 48px;
     text-align : center;
-    font-family: "lineal";
+    font-family: 'Arsenal', sans-serif;
 }
 
 graphic design student{
