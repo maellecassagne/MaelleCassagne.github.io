@@ -5,10 +5,16 @@ propriété: valeur;
 propriété: valeur;
 } */
 
+@font-face {
+    font-family: "lineal";
+    src: url(Lineal.otf) format("opentype");
+}
+
 h1 {
   color: rgb(2, 48, 48);
     font-size: 48px;
     text-align : center;
+    font-family: "lineal";
 }
 
 graphic design student{
@@ -16,9 +22,9 @@ graphic design student{
 }
 body {
     background-color: rgb(255, 255, 255);
-    font-family: Commissioner light;
     color:rgb(107, 107, 107) ;
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
+    display: grid;
 }
