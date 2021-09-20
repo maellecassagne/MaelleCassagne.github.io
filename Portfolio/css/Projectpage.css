@@ -1,0 +1,29 @@
+body{
+    background-color: #81d7ff;
+}
+
+img{
+    max-width: 200px;
+}
+p{
+    color:black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(250, 94, 67);
+}
+
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(250, 94, 67);
+}
+h4 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: rgb(250, 94, 67);
+}
+h3{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(250, 94, 67);
+}
