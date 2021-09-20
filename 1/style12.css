@@ -1,0 +1,41 @@
+/* selecteur(s) {
+propriété: valeur;
+propriété: valeur;
+propriété: valeur;
+} */
+
+
+h1 {
+    color: rgb(2, 48, 48);
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Arsenal', sans-serif;
+    font-size:clamp(1_px, 5vw, 72px);
+}
+
+body {
+    background-color: white;
+    color: rgb(107, 107, 107);
+    text-align: left;
+    font-family: 'Arsenal', sans-serif;
+    margin-right: 600px;
+}
+
+.grid {
+    padding: 0;
+    margin: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px;
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+.grid>image {
+    padding: px;
+    margin: 0;
+    color: #fff;
+    background: #190;
+    margin: 0;
+    display: block;
+}
