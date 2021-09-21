@@ -1,0 +1,176 @@
+body,html{
+    height: 100vh;
+
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "sect1 sect2 sidebar"
+    "sect1 sect2 sidebar"
+    "sect1 sect2 sidebar"
+    "sect1 sect2 sidebar"
+    ;
+}
+
+.purple{
+grid-area: sect1;
+background-color: #4a84aa;
+}
+
+.coral{
+    grid-area: sect2;
+    background-color: #116c95 ;
+}
+aside{
+    grid-area: sidebar ;
+    background-color:white;
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto, 3);
+        grid-template-areas: 
+        "sect1"
+        "sect2"
+        "sidebar"
+    }
+}
+
+img {
+    display:grid;
+    height: auto;
+    max-width: 250px;
+}
+
+
+
+p {
+    color: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(250, 94, 67);
+    margin-bottom: 0;
+    margin-top: 20px;
+
+   
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(250, 94, 67);
+}
+
+h4 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:black;
+}
+
+h3 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+color:rgb(250, 94, 67);
+}
+
+video{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
+
+.myface img{
+    max-width: 400px;
+    width:400px;
+    height: auto;
+    display: block;
+}
+
+.c1{
+    background: rgb(184 211 234);
+    width: 100%;
+    display:block;
+}
+
+.c2{
+    background:#95b8d4;
+    width: 100%;
+    display:block;
+}
+
+.c3{
+    background:#709ebf;
+    width: 100%;
+    display:block;
+}
+
+.c4{
+    background: #4a84aa;
+    width: 100%;
+    display:block;
+}
+
+.purple img{
+    margin: auto;
+    padding:12px 12px;
+}
+
+.coral img{
+    margin: auto;
+    padding:12px 12px;
+}
+
+.disabledc5 {
+    background: #116c95 ;
+    width: 100%;
+    display:block;
+    pointer-events: none;
+    cursor: default;
+}
+
+.disabledc4 {
+    background:#4a84aa;
+    width: 100%;
+    display:block;
+    pointer-events: none;
+    cursor: default;
+}
+
+.disabledc6 {
+    background:#106186;
+    width: 100%;
+    display:block;
+    pointer-events: none;
+    cursor: default;
+}
+
+.disabledc7 {
+    background: #0a4f6e;
+    width: 100%;
+    display:block;
+    pointer-events: none;
+    cursor: default;
+}
+
+.linknormal{
+    background:#4a84aa;
+    width: 100%;
+    display:block;
+
+}
+
+.menu{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: rgb(250, 94, 67);
+    font-size: 20px;
+}
