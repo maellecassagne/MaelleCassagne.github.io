@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page artiste bagarre</title>
+    <link rel="stylesheet" href="cssmaln.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="artiste">
+        <div class="artisteImage">
+          <img src="" alt="">
+        </div>
+        <div class="artisteTexte">
+          <h3 class="artisteTitre">
+            Bagarre
+          </h3>
+          <p class="artisteDescription">
+            Un groupe...
+          </p>
+          <div class="artisteReseaux">
+            <a href="">
+              <img class="artisteReseau"
+            src="" alt="">
+            </a>
+            <a href="">
+              <img class="artisteReseau"
+            src="" alt="">
+            </a>
+            <a href="">
+              <img class="artisteReseau"
+            src="" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+</body>

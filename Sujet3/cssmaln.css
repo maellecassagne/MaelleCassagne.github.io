@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family:'Antonio', sans-serif;
+    color: white;
+}
+
+.rectanglecontact {
+  width : 50vw;
+  height : 30vw;
+display:grid;
+place-items: center;
+background: linear-gradient(180deg, #ABCE56 0%, #48805E 100%);
+border: 30px solid #16182F;
+}
+
+.fond2 {
+background-image: url("Images/Rectangle 2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height:100vh;
+  display: grid;
+  place-items: center;
+
+}
+
+.rectangle2 {
+  width : 50vw;
+  min-height:300px;
+  /*height : 50vw;*/
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #C7E674 0%, #01B6F7 100%);
+  border: 30px solid #16182F;
+
+}
+
+.programmeTitre{
+  border:2px white solid;
+  width:90%;
+  margin-top: 2vw;
+}
+
+
+.programmeTitreTexte{
+  text-align:center;
+  font-size: 36px;
+}
+
+.artistes{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.artistes span{
+  width:49%;
+  text-align:center;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 550px){
+  .rectangle2 {
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle1{
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle3{
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle4 {
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle5{
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle6{
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle11a {
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+  .rectangle11b {
+    width:80vw;
+    border: 15px solid #16182F;
+  }
+}
+
+.fond1 {
+  background-image: url("Images/page1fond.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    display: grid;
+    place-items: center;
+  
+  }
+
+  .rectangle1 {
+    width : 50vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #ABCE56 0%, #48805E 100%);
+    border: 30px solid #16182F;
+  }
+
+  .titreindex {
+    text-align:left;
+    color: #fff;
+    font-size:62px;
+line-height: 140px;
+margin: 0;
+  }
+
+  .titreindex2 {
+    text-align: left;
+    color: #fff;
+    font-size: 36px;
+    margin-left: 12vw;
+    margin-right: 10vw;
+  }
+
+  
+.fond3 {
+  background-image: url("Images/fond3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  
+  .rectangle3 {
+    width : 50vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #C7D747 0%, #75C9B9 100%);
+    border: 30px solid #16182F;
+  }
+
+  .fond4 {
+    background-image: url("Images/fond4.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      height:100vh;
+      display: grid;
+      place-items: center;
+    }
+
+  .rectangle4 {
+    width : 50vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #ABCE56 0%, #48805E 100%);
+    border: 30px solid #16182F;
+  }
+  
+  .logoscontacts {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .logosspan{
+    width:49%;
+    text-align:center;
+    margin: 5px;
+  }
+
+  .fond5 {
+    background-image: url("Images/fond5.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      height:100vh;
+      display: grid;
+      place-items: center;
+    }
+
+  .rectangle5 {
+    width : 50vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #C7E674 0%, #01B6F7 100%);
+    border: 30px solid #16182F;
+
+  }
+
+  .fond6 {
+    background-image: url("Images/fond6.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      height:100vh;
+      display: grid;
+      place-items: center;
+    }
+
+  .rectangle6 {
+    width : 50vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: #16182F;
+    border: 30px solid #BED650;
+  }
+
+  .logospartenaires {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .partenairesspan{
+    width:80%;
+    text-align:center;
+    margin: 5px;
+  }
+
+  .fond11 {
+    background-image: url("Images/fond11.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      height:100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    .rectangle11a {
+      width : 50vw;
+      min-height: 300px;
+      display: grid;
+      place-items: center;
+      background: url(Images/artistesphotos/pagebagarreimage.jpg);
+      background-size:100%;
+      background-repeat: no-repeat;
+      border: 30px solid #16182F;
+    }
+
+
+    .rectangle11b {
+      width : 50vw;
+      min-height:300px;
+      display: grid;
+      place-items: center;
+    background: linear-gradient(270deg, #C3B949 0%, #11919C 89.27%);
+border: 30px solid #16182F;
+}
+
+
+.logospageartistes {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.logosartistesspan{
+  width:80%;
+  text-align:center;
+  margin: 5px;
+}
+
+
+.imagerectanglebandolero{
+  width : 50vw;
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  background: url(Images/artistesphotos/pagebandoleroimage1.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  border: 30px solid #16182F;
+}
+
+.imagerectanglestructures{
+  width : 50vw;
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  background: url(Images/artistesphotos/pagestructuresimage.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  border: 30px solid #16182F;
+}
+
+.imagerectangletheatlas {
+  width : 50vw;
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  background: url(Images/artistesphotos/pagestheatlasimage.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  border: 30px solid #16182F;
+}
+
+.imagerectangleluke{
+  width : 50vw;
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  background: url(Images/artistesphotos/pagelukeimage.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  border: 30px solid #16182F;
+}
+
+.paragraphe2 {
+padding-left: 10%;
+padding-right: 10%;
+text-align: left;
+font-family:'Antonio', sans-serif;
+color: white;
+}
+
+.paragraphe1{
+  padding-left: 10%;
+padding-right: 10%;
+text-align: center;
+font-family:'Antonio', sans-serif;
+color: white;
+}
