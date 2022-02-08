@@ -4,7 +4,16 @@ body{
     background-color: black;
     font-family:'Antonio', sans-serif;
     color: white;
+
 }
+
+.flexboxartistes{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: flex-start;
+  gap: 5vw;
+  }
 
 .rectanglecontact {
   width : 50vw;
@@ -17,14 +26,14 @@ border: 30px solid #16182F;
 
 .fond2 {
 background-image: url("Images/Rectangle 2.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  height:100vh;
-  display: grid;
-  place-items: center;
+background-repeat:no-repeat;
+background-size: cover;
+min-height: 100vh;
+min-width: 100vw;
+margin: 0;
+padding: 0;
+display: grid;
+place-items: center;
 
 }
 
@@ -54,71 +63,56 @@ background-image: url("Images/Rectangle 2.png");
 
 .artistes{
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .artistes span{
   width:49%;
   text-align:center;
   margin-bottom: 5px;
+font-size: 16px;
+    font-weight: medium;
+    color: #fff;
+    text-decoration:none;
+  }
+  
+.artistes span a:link{
+line-height: 0%;
+color : #fff;
+font-weight:normal;
+font-size: 16px;
 }
 
-@media screen and (max-width: 550px){
-  .rectangle2 {
-    width:80vw;
-    border: 15px solid #16182F;
+.artistes span a:link{
+  line-height: 0%;
+  color : #fff;
+  font-weight:normal;
+  font-size: 16px;
   }
-  .rectangle1{
-    width:80vw;
-    border: 15px solid #16182F;
+
+.artistes span a:visited{
+  line-height: 0%;
+  color : #fff;
+  font-weight: 0;
   }
-  .rectangle3{
-    width:80vw;
-    border: 15px solid #16182F;
+
+  .artistes span a:hover{
+    color: #030f96;
   }
-  .rectangle4 {
-    width:80vw;
-    border: 15px solid #16182F;
-  }
-  .rectangle5{
-    width:80vw;
-    border: 15px solid #16182F;
-  }
-  .rectangle6{
-    width:80vw;
-    border: 15px solid #16182F;
-  }
-  .rectangle11a {
-    width:80vw;
-    border: 15px solid #16182F;
-  }
-  .rectangle11b {
-    width:80vw;
-    border: 15px solid #16182F;
-  }
-  .flexboxartistes{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items: flex-start;
-    gap: 5vw;
-  }
-  .fond1{
-    background-repeat: repeat;
-  }
-}
 
 .fond1 {
   background-image: url("Images/page1fond.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
-    height:100vh;
+    min-height:100vh;
+    min-width: 100vw;
     display: grid;
     place-items: center;
-  
+
   }
 
   .rectangle1 {
@@ -130,33 +124,43 @@ background-image: url("Images/Rectangle 2.png");
     border: 30px solid #16182F;
   }
 
-  .titreindex {
-    text-align:left;
-    color: #fff;
-    font-size:62px;
-line-height: 140px;
-margin: 0;
+  .titreindexparagraphe, .titreindex2paragraphe {
+float: left;
   }
 
-  .titreindex2 {
+  .titreindexparagraphe {
+    text-align:left;
+    color: #fff;
+    font-size:120px;
+line-height: 130px;
+margin: 0px;
+padding-top: 5vh;
+padding-left: 5vh;
+padding-right: 5vh;
+  }
+
+  .titreindex2paragraphe {
     text-align: left;
     color: #fff;
     font-size: 36px;
-    margin-left: 12vw;
-    margin-right: 10vw;
+    margin:0px;
+    padding-top: 5vh;
+padding-left: 5vh;
+padding-right: 5vh;
+padding-bottom: 5vh;
   }
 
   
 .fond3 {
   background-image: url("Images/fond3.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    height:100vh;
-    display: grid;
-    place-items: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
   }
 
   
@@ -169,14 +173,23 @@ margin: 0;
     border: 30px solid #16182F;
   }
 
+  .rectangle3a {
+    width : 40vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #C7D747 0%, #75C9B9 100%);
+    border: 30px solid #16182F;
+  }
+
   .fond4 {
     background-image: url("Images/fond4.jpg");
       background-repeat: no-repeat;
-      background-attachment: fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
-      height:100vh;
+      min-height:100vh;
+      min-width: 100vw;
       display: grid;
       place-items: center;
     }
@@ -189,10 +202,19 @@ margin: 0;
     background: linear-gradient(180deg, #ABCE56 0%, #48805E 100%);
     border: 30px solid #16182F;
   }
+
+  .rectangle4a {
+    width : 40vw;
+    min-height:300px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #ABCE56 0%, #48805E 100%);
+    border: 30px solid #16182F;
+  }
   
   .logoscontacts {
     display:flex;
-    flex-wrap: nowrap;
+   flex-wrap: wrap;
   }
 
   .logosspan{
@@ -201,14 +223,15 @@ margin: 0;
     margin: 5px;
   }
 
+
   .fond5 {
     background-image: url("Images/fond5.jpg");
       background-repeat: no-repeat;
-      background-attachment: fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
-      height:100vh;
+      min-height:100vh;
+      min-width: 100vw;
       display: grid;
       place-items: center;
     }
@@ -225,12 +248,11 @@ margin: 0;
 
   .fond6 {
     background-image: url("Images/fond6.png");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      background-repeat:no-repeat;
       background-size: cover;
+      min-height: 100vh;
       margin: 0;
       padding: 0;
-      height:100vh;
       display: grid;
       place-items: center;
     }
@@ -259,29 +281,30 @@ margin: 0;
   .fond11 {
     background-image: url("Images/fond11.jpg");
       background-repeat: no-repeat;
-      background-attachment: fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
-      height:100vh;
+      min-height:100vh;
+      min-width: 100vw;
       display: grid;
       place-items: center;
     }
 
     .rectangle11a {
-      width : 50vw;
-      min-height: 300px;
+      width : 40vw;
       display: grid;
       place-items: center;
-      background: url(Images/artistesphotos/pagebagarreimage.jpg);
-      background-size:100%;
-      background-repeat: no-repeat;
       border: 30px solid #16182F;
     }
 
+    .rectangle11a img{
+      width:inherit
+    }
+   
+
 
     .rectangle11b {
-      width : 50vw;
+      width : 40vw;
       min-height:300px;
       display: grid;
       place-items: center;
@@ -296,55 +319,60 @@ border: 30px solid #16182F;
 }
 
 .logosartistesspan{
-  width:80%;
   text-align:center;
   margin: 5px;
 }
 
+.logosartistesspan img{
+padding-left: 10px;
+padding-right: 10px;
+}
+
 
 .imagerectanglebandolero{
-  width : 100%;
-  height: 220px;
+  width : 40vw;
   display: grid;
   place-items: center;
-  background: url(Images/artistesphotos/pagebandoleroimage1.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
   border: 29px solid #16182F;
 }
 
+.imagerectanglebandolero img{
+width: inherit
+}
+
+
 .imagerectanglestructures{
-  width : 50vw;
-  min-height: 300px;
+  width : 40vw;
   display: grid;
   place-items: center;
-  background: url(Images/artistesphotos/pagestructuresimage.jpg);
-  background-size:100%;
-  background-repeat: no-repeat;
   border: 30px solid #16182F;
+}
+
+.imagerectanglestructures img{
+  width: inherit;
 }
 
 .imagerectangletheatlas {
-  width : 50vw;
-  min-height: 300px;
+  width : 40vw;
   display: grid;
   place-items: center;
-  background: url(Images/artistesphotos/pagestheatlasimage.jpg);
-  background-size:100%;
-  background-repeat: no-repeat;
   border: 30px solid #16182F;
 }
 
+.imagerectangletheatlas img{
+  width: inherit;
+}
+
 .imagerectangleluke{
-  width : 50vw;
-  min-height: 300px;
+  width : 40vw;
   display: grid;
   place-items: center;
-  background: url(Images/artistesphotos/pagelukeimage.jpg);
-  background-size:100%;
-  background-repeat: no-repeat;
   border: 30px solid #16182F;
 }
+
+.imagerectangleluke img{
+  Width: inherit
+  }
 
 .paragraphe2 {
 padding-left: 10%;
@@ -362,13 +390,11 @@ font-family:'Antonio', sans-serif;
 color: white;
 }
 
-.flexboxartistes{
-display: flex;
-flex-direction: row;
-justify-content:space-evenly;
-align-items: flex-start;
-gap: 5vw;
-}
+
+
+.sommaire{
+  list-style-type: none;
+  }
 
 .batteriepleine{
   background: #FFFFFF;
@@ -430,4 +456,115 @@ font-size: 18px;
     text-align: right;
     justify-items: center;
     text-decoration:none;
+  }
+
+
+
+  @media screen and (max-width: 550px){
+    .rectangle2 {
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+    .rectangle1{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+    .rectangle3{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .rectangle3a{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .rectangle4 {
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .rectangle4a {
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+    .rectangle5{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+    .rectangle6{
+      width:80vw;
+      border: 15px solid solid #BED650;;
+    }
+    .rectangle11a {
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+    .rectangle11b {
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+    .flexboxartistes{
+      flex-direction: column;
+    }
+
+    .flexboxsommaire{
+      flex-direction: column;
+      }
+
+      .sommaire {
+   margin-left: 25%;
+      }
+
+
+
+    .fond6{
+      background-size: cover;
+    }
+
+    .fond1{
+background-size: cover;
+    }
+
+    .fond2{
+      background-size: cover;
+          }
+
+.fond3{
+background-size: cover;
+}
+
+.fond4{
+  background-size: cover;
+  }
+
+  .fond5{
+    background-size: cover;
+    }
+
+    .imagerectangletheatlas{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .imagerectanglebandolero{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .imagerectangleluke{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .imagerectanglestructures{
+      width:80vw;
+      border: 15px solid #16182F;
+    }
+
+    .batteriepleine{
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
   }
